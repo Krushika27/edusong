@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Songs</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>📚 All Songs</h1>
+
+{{ songs|safe }}
+
+<a href="/"><button>Back to Home</button></a>
+
+</body>
+</html>
